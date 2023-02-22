@@ -21,3 +21,5 @@ class User(db.Model):
     @classmethod
     def get_by_id(model, id):
         return model.query.get_or_404(id)
+    
+    # Helping
